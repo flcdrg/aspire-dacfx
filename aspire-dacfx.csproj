@@ -1,0 +1,17 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.0.1">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>f49d79eb-4d16-4c90-826b-156a934100d8</UserSecretsId>
+    <RootNamespace>AspireDacFx</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.SqlServer" Version="13.0.1" />
+    <PackageReference Include="Microsoft.SqlServer.DacFx" Version="170.2.70" />
+  </ItemGroup>
+
+</Project>
